@@ -3,7 +3,6 @@
 This VBScript-based DDoS tool allows users to launch Distributed Denial of Service (DDoS) attacks for network stress testing purposes. It includes customizable features such as request method (GET or POST), number of requests, custom headers, and advanced modes like **Turbo Mode** and **Fear Mode** for more intense attacks. The tool can also send log messages to a **Discord webhook** for monitoring the attack status.
 
 
-
 ## ⚠️ Disclaimer
 
 This tool is strictly for educational purposes and legal testing only. Misuse of this tool against unauthorized systems is illegal and could result in severe legal consequences. Use responsibly and only with explicit permission.
