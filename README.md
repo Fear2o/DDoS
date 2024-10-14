@@ -1,37 +1,65 @@
 ## 💣 VBScript DDoS Tool 💻
 
-This is a powerful VBScript-based DDoS tool designed for educational and testing purposes. It allows you to stress-test servers and networks with Distributed Denial of Service (DDoS) attacks. This tool is easy to use and provides multiple attack methods with customizable parameters for testing network resilience.
+This VBScript-based DDoS tool allows users to launch Distributed Denial of Service (DDoS) attacks for network stress testing purposes. It includes customizable features such as request method (GET or POST), number of requests, custom headers, and advanced modes like **Turbo Mode** and **Fear Mode** for more intense attacks. The tool can also send log messages to a **Discord webhook** for monitoring the attack status.
+
+
 
 ## ⚠️ Disclaimer
 
-This tool is intended for legal use only. You are responsible for ensuring that your usage complies with local laws and that you have permission from the server/network owners before running any tests. Misuse of this tool can result in legal consequences.
+This tool is strictly for educational purposes and legal testing only. Misuse of this tool against unauthorized systems is illegal and could result in severe legal consequences. Use responsibly and only with explicit permission.
 
 ## 🔥 Features:
 
-💻 VBScript simplicity: Lightweight and easy to execute.
-🚀 Multiple attack types: Supports different DDoS attack methods for testing.
-⚡ Customizable parameters: Allows you to modify attack strength, duration, and targets.
-🔄 Retry mechanisms: Retries attacks to simulate real-world persistence.
+• **Customizable attack parameters**: Modify URL, request count, delay, and headers.
+
+• **Turbo Mode**: Increase the attack speed by sending requests with no delay.
+
+• **Fear Mode**: Send up to 1000 requests per second for intense testing.
+
+• **Request methods**: Supports both GET and POST methods, including sending POST data.
+
+• **Discord logging**: Errors and attack progress are logged to a Discord webhook in real time.
+
+• **Detailed error handling**: Logs any request errors to both Discord and the local log file.
 
 ## 🛠️ Installation:
 
-1- Go to the Releases tab of this repository.
-2- Download the latest release of the tool (DDoS.vbs).
-3- Run the VBScript
+1. Go to the Releases tab of this repository.
+2. Download the latest release of the tool (DDoS.vbs).
+3. Run the VBScript
+
+   • Simply double-click DDoS.vbs, or
+   
+   • Execute it from the command line:
+
+   
+```bash
+cscript DDoS.vbs
+```
 
 ## 🚀 Usage:
 
-1- Specify the target URL.
-2- Specify the Discord Webhook for logging.
-3- Enter the request method (GET or POST).
-4- Configure attack parameters like the number of requests and duration.
-5- Enter custom headers.
-6- Set log file path.
-7- Run the script to start the DDoS test.
+1. **Enter target details**:
+
+• Specify the target URL (default: http://example.com).
+• Enter a Discord webhook URL to receive real-time logs.
+• Select the HTTP request method (GET or POST).
+• Input the number of requests, delay between them, and timeout.
+• Optionally enter custom headers and POST data.
+
+ 2. **Turbo Mode & Fear Mode**:
+
+• Turbo Mode: Triples the number of requests and removes delay.
+
+• Fear Mode: Sends 1000 requests per second for heavy network stress tests.
+
+3. **Logs**:
+
+• Logs are saved to a text file in the user's Downloads folder and also sent to the Discord webhook.
 
 ## 🛑 Legal Notice:
 
-This tool should only be used for legal purposes. Do not target websites or networks without explicit permission from the owners. Unauthorized use can result in severe penalties, including fines and imprisonment.
+This tool should only be used for **authorized network stress tests**. Unauthorized use is illegal and may lead to serious consequences. Make sure you have proper permission before running the tool.
 
 ## 📂 File Structure:
 
