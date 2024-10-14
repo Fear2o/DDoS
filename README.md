@@ -42,9 +42,13 @@ cscript DDoS.vbs
 1. **Enter target details**:
 
 • Specify the target URL (default: http://example.com).
+
 • Enter a Discord webhook URL to receive real-time logs.
+
 • Select the HTTP request method (GET or POST).
+
 • Input the number of requests, delay between them, and timeout.
+
 • Optionally enter custom headers and POST data.
 
  2. **Turbo Mode & Fear Mode**:
